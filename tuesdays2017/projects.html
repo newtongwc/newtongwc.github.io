@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">.
+
+
+</head>
+<body>
+<ul class="navbar">
+    <li class="navitem"><a href="#home">Home</a></li>
+    <li class="navitem" style="left; 25%"><a href="#Projects">Projects</a></li>
+    <li class="navitem"><a href="#about">About</a></li>
+    <li class="navitem"><a href="#el">External Links</a></li>
+</ul>
+<h1>Projects</h1>
+<iframe class="vidone"src="https://www.youtube.com/embed/nT7500qDa7E" frameborder="0" allowfullscreen></iframe>
+    <div class="infoone">15 minutes can save you 15% or more on car insurace with GEICO. Don't be a cat. Switch to GEICO now and you will be as cool as ths DAWG. If you love your car, insure it with GEICO.</div>
+<br>
+    <iframe class="vidtwo"src="https://www.youtube.com/embed/PW1ap6WR81w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <div></div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+</body>
+</html>
