@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">.
+
+
+</head>
+<body>
+<ul class="navbar">
+    <li class="navitem"><a href="#home">Home</a></li>
+    <li class="navitem" style="left; 25%"><a href="#Projects">Projects</a></li>
+    <li class="navitem"><a href="#about">About</a></li>
+    <li class="navitem"><a href="#el">External Links</a></li>
+</ul>
+<h1>Women's Rights</h1>
+
+<button class="accordion"><h2>Who?</h2></button>
+<div class="panel">
+<br>
+<p> We are the GWC club of Newton. We are a part of a free organiazation that teaches girls to code. We are trying the make the gender gap in computer science smaller. </p>
+</div>
+<br>
+<button class="accordion"><h2>What?</h2></button>
+<div class="panel">
+<p>
+    Even though women have made a lot of progress so far, we have still not fully achieved our full goal of gender equality. 
+    </p>
+</div>
+<br>
+<button class="accordion"><h2>Statistics</h2></button>
+<div class="panel">
+<br>
+  <p>(Insert statistics)</p>
+
+</div>
+<br>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+</body>
+</html>
