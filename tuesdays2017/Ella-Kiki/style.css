@@ -1,0 +1,23 @@
+p {
+    color: #0009c4;
+    text-align: center;
+} 
+body {
+  background-color: #9fecf2;
+}
+.black{
+  color: black;
+}
+h1 {
+  border-style: double;
+  color: #ff00e5;
+}
+.#ff00e5{
+  color: #ff00e5;
+}
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-size: 60px;
+}
