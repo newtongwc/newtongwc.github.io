@@ -8,8 +8,8 @@ body {
 .black{
   color: black;
 }
-h1 {
-  border-style: double;
+html {
+  border-style: outset;
   color: #ff00e5;
 }
 .#ff00e5{
