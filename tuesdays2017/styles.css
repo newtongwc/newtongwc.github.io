@@ -85,18 +85,14 @@ div.panel {
     display: none;
 }
 
-.vidone {
+.projectone {
     float: left;
     width: 45%;
+    height: 485px;
     position: relative;
     top: 65px;
-}
+    border: double 5px;
 
-.vidtwo {
-    float: right;
-    width: 45%;
-    position: relative;
-    top: 110px;
 }
 
 .infoone {
@@ -104,8 +100,124 @@ div.panel {
     width: 45%;
     position: relative;
     top: 65px;
-    background-color: mediumvioletred;
-    width: 550px;
-    height: 305px;
     padding: 5px;
+    background-color: mediumvioletred;
+    width: 45%;
+    height: 485px;
+    font-size: 25px;
+
+}
+
+.projecttwo {
+    float: right;
+    width: 45%;
+    height: 485px;
+    position: relative;
+    top: 90px;
+    border: double 5px;
+
+}
+
+.infotwo {
+    float: left;
+    width: 45%;
+    position: relative;
+    top: 90px;
+    padding: 5px;
+    background-color: mediumvioletred;
+    width: 45%;
+    height: 485px;
+    font-size: 25px;
+}
+
+.projectthree {
+    float: left;
+    width: 45%;
+    height: 485px;
+    position: relative;
+    top: 115px;
+    border: double 5px;
+    align-content: center;
+    background-color: white;
+
+}
+
+.infothree {
+    float: right;
+    width: 45%;
+    position: relative;
+    top: 115px;
+    padding: 5px;
+    background-color: mediumvioletred;
+    width: 45%;
+    height: 485px;
+    font-size: 25px;
+}
+
+.projectfour {
+    float: right;
+    width: 45%;
+    height: 485px;
+    position: relative;
+    top: 145px;
+    border: double 5px;
+
+}
+
+.infofour {
+    float: left;
+    width: 45%;
+    position: relative;
+    top: 145px;
+    padding: 5px;
+    background-color: mediumvioletred;
+    width: 45%;
+    height: 485px;
+    font-size: 25px;
+}
+
+.projectfive {
+    float: left;
+    width: 45%;
+    height: 485px;
+    position: relative;
+    top: 160px;
+    border: double 5px;
+    align-content: center;
+    background-color: white;
+
+}
+
+.infofive {
+    float: right;
+    width: 45%;
+    position: relative;
+    top: 160px;
+    padding: 5px;
+    background-color: mediumvioletred;
+    width: 45%;
+    height: 485px;
+    font-size: 25px;
+}
+
+.projectsix {
+    float: right;
+    width: 45%;
+    height: 485px;
+    position: relative;
+    top: 185px;
+    border: double 5px;
+
+}
+
+.infosix {
+    float: left;
+    width: 45%;
+    position: relative;
+    top: 185px;
+    padding: 5px;
+    background-color: mediumvioletred;
+    width: 45%;
+    height: 485px;
+    font-size: 25px;
 }
