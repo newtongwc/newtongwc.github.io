@@ -132,8 +132,7 @@ div.panel {
 
 .projectthree {
     float: left;
-    width: 45%;
-    height: 485px;
+    height: 600px;
     position: relative;
     top: 115px;
     border: double 5px;
@@ -143,8 +142,7 @@ div.panel {
 }
 
 .infothree {
-    float: right;
-    width: 45%;
+    float: left;
     position: relative;
     top: 115px;
     padding: 5px;
